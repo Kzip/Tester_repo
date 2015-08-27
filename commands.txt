@@ -54,3 +54,13 @@ starts a backup of the mac osx
 10:kill PIDID{
 kills process
 }
+
+!-- REVERT CHANGED
+
+git add . //adds all files
+git commit -m " some message" // commited
+git log // saw the commit number
+git revert ##### // reverted changed
+git revert ##### // changed my revert again because it was dumb as helll
+git committ //saved changes
+git push// pushed that shit to master branch

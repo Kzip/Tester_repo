@@ -1,0 +1,9 @@
+here is something I did
+
+git init
+vi txt.txt
+git status
+git add .
+git commit -m "here is some shit"
+git push.
+
