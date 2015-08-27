@@ -1,0 +1,56 @@
+commands for terminal use
+
+1:ssh -l  username -remote ip-address{
+use this command to remote log into the powerbook, need to be set up in system Prefrences/Sharing/Remote Login
+}
+
+2: ditto -V /old/work /new/work {
+copies work, use if you are moving high data > 5 gigs between folders/harddrives
+}
+
+3: curl someURL {
+
+this copies any url with a d/l files and downloads it ontop the computer.
+}
+
+4: say "somestring" {
+makes the mac say whatever is written in the string using built-in speech.
+
+}
+5:install ZHS
+"These will save you an immeasurable amount of time. It comes with tab completion, custom theming,
+plenty of built in aliases,
+ git branch support, and a lot more. It's the single best thing you could possibly do with your terminal."
+
+ 5:Look into TMUX, which will allow you to keep preconfigured terminal sessions
+ for working on multiple windows such as in a
+ Rails deployment when you need to have a server, an editor, a git / files window, and whatever you can think of.
+
+ 5: grep {
+ finds matching text pattens using regular expressions, regularlly used in conjunction with pipe commands
+ }
+
+ 6:Ctrl + A	Go to the beginning of the line you are currently typing on
+Ctrl + E	Go to the end of the line you are currently typing on
+Ctrl + L	Clears the Screen
+
+6:https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
+
+6: [command] -h {
+offers help
+}
+
+7:ping address{
+find out if a server has stopped responding
+}
+
+8:diff -y firstfile secondfile{
+reads the difference between two files
+}
+
+9:tmutil startbackup{
+starts a backup of the mac osx
+}
+10:kill PIDID{
+kills process
+}
